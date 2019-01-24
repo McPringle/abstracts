@@ -1,0 +1,11 @@
+= Let's have some fun with ChatBots!
+
+Do you understand the user interface of every website and every application? I don't! Do you understand how to use a chat application like WhatsApp, Telegram, Threema, Signal, Facebook Messenger, etc? I do! If everyone knows how to chat, what if we provide our business services using a ChatBot as a user interface? Let's have some fun and create a ChatBot live on stage as an introduction to this very interesting topic!
+
+This talk has no slides -- it's all about code! Live on stage I start a new empty project and show the audience how to write a complete and working chat bot from scratch for https://telegram.org/[Telegram]. Our bot will receive messages from other Telegram users, analyze them and send an appropriate answer. The messages can be formatted and contain photos, documents and locations. We will use custom and inline keyboards, callback buttons and much more.
+
+This talk is kind of interactive -- the audience can use a Telegram client on their own devices to talk to the chat bot while I'm working on it live on stage.
+
+Be prepared: After my talk there is nothing to stop you from writing your own chat bot!
+
+To fully understand this talk the attendees should have basic knowledge of Java.
