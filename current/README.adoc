@@ -1,0 +1,7 @@
+= Abstracts for Conferences
+
+Copyright © Marcus Fihlon
+
+Here you can find the abstracts of my current lectures and workshops, which I keep up to date.
+
+link:archive[View archived abstratcs]
