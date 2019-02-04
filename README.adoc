@@ -1,3 +1,6 @@
 = Abstracts for Conferences
 
 Copyright © Marcus Fihlon
+
+- link:current[current]: Here you can find the abstracts of my current lectures and workshops, which I keep up to date.
+- link:archive[archive]: This folder contains the abstracts of lectures and workshops that I no longer actively update.
