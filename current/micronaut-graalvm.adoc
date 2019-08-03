@@ -1,11 +1,117 @@
 = Launching the Micro Future: Micronaut with GraalVM in Practice
 
+I can cover this topic as a talk (~45-60 minutes) or as a workshop (~2-3 hours) either in English or in German (Deutsch).
+
+== Talk
+
+=== English
+
+==== Micronaut with GraalVM in Practice
+
+===== Live-Coding with Micronaut and GraalVM
+
 Micronaut is a modern, JVM-based full-stack framework for building modular, easily testable microservice and serverless applications. Developed by the creators of the Grails framework and with the support of many Spring developers, who have used their experience in these areas to develop a framework specifically focused on microservices.
 
-Unlike other frameworks, Micronaut does not analyze fields, methods and constructors at runtime by reflection, but already at compilation time, so that the start time and memory consumption of an application no longer depends on its size. Micronaut supports the declarative build of reactive HTTP clients that are implemented at compile time, further reducing memory consumption. Additional features such as non-blocking HTTP servers, easy execution of component tests with automatically started and managed test instances, dependency injection at compile time and the cloud-native approach can be implemented in a wondrously simple way.
+Oracle’s newly developed GraalVM will change our view of microservices and cloud capabilities in the Java ecosystem and enable us to compete with native compilations. When Micronaut and GraalVM come together, both architectures can take full advantage of each other, resulting in amazingly efficient applications.
 
-With its relatively flat learning curve, Micronaut makes it as easy as possible to provide RESTful services. Of course, as usual today, also for distributed environments with integrated support of repeats in case of failure, circuit breakers and fallbacks for robust applications.
+Almost without slides, but with a lot of live coding I will show you everything you need to know to get started with Micronaut and GraalVM:
 
-Oracle's newly developed GraalVM will change our view of microservices and cloud capabilities in the Java ecosystem and enable us to compete with native compilations. When Micronaut and GraalVM come together, both architectures can take full advantage of each other, resulting in amazingly efficient applications.
+- Project creation with Micronaut-CLI
+- Non-blocking, reactive HTTP Clients and Servers
+- Scheduled Task Execution
+- Configuration using files and environment variables
+- Unit-Tests with and without a server
+- Dependency Injection (at compile time)
+- Robust interfaces (Retries, Circuit Breakers, Fallback)
+- GraalVM Native Image
+- Build using Docker without local GraalVM installation
 
-In my presentation I will give a rough overview and a short introduction to Micronaut on the GraalVM and show during a live coding session how to develop real microservices efficiently in a very short time.
+After the presentation, you will be given access to the workshop documents to train yourself step by step in Micronaut and GraalVM.
+
+=== Deutsch
+
+==== Micronaut mit GraalVM in der Praxis
+
+===== Live-Coding mit Micronaut und GraalVM
+
+Micronaut ist ein modernes, JVM-basiertes Full-Stack-Framework für den Aufbau modularer, leicht testbarer Microservice- und Serverless-Anwendungen mit dem Fokus auf schnelle Startzeiten und einen geringen Speicherverbrauch. Entwickelt von den Machern des Grails-Frameworks haben viele Spring-Entwickler ihre Erfahrung einfliessen lassen, um ein speziell auf Microservices ausgerichtetes Framework zu erschaffen.
+
+Die von Oracle neu entwickelte GraalVM wird grossen Einfluss auf Entwicklung und Betrieb von Microservices und Functions-as-a-Service im Java-Ökosystem haben und es uns ermöglichen, mit nativen Kompilaten zu konkurrieren. Mit Micronaut und GraalVM zusammen kommen die Vorteile beider Architekturen besonders gut zu tragen und führen zu erstaunlich effizienten Anwendungen.
+
+Fast ohne Folien, aber mit viel Live-Coding zeige ich dir alles, was du wissen musst, um mit Micronaut und GraalVM loszulegen:
+
+- Projekte mit Micronaut CLI erstellen
+- Nicht blockierende, reaktive HTTP Server und Clients
+- Zeitgesteuerte Ausführung von Methoden (Scheduler)
+- Konfiguration per Konfigurationsdateien und über Umgebungsvariablen
+- Unit-Tests und Komponententests mit und ohne Server
+- Dependency Injection (zur Kompilierzeit)
+- Robuste Schnittstellen (Retries, Circuit Breakers, Fallback)
+- Native Kompilierung mit GraalVM
+- Kompletter Build mit Docker ohne eigene GraalVM-Installation
+
+Nach der Präsentation erhältst du Zugang zu Workshop-Dokumenten, um später zu jeder Zeit Schritt für Schritt alles gezeigte selbst nachvollziehen zu können.
+
+== Workshop
+
+=== English
+
+==== Micronaut with GraalVM in Practice
+
+===== A hands-on workshop as an introduction to Micronaut
+
+Micronaut is a modern, JVM-based full-stack framework for building modular, easily testable microservice and serverless applications. Developed by the creators of the Grails framework and with the support of many Spring developers, who have used their experience in these areas to develop a framework specifically focused on microservices.
+
+Oracle’s newly developed GraalVM will change our view of microservices and cloud capabilities in the Java ecosystem and enable us to compete with native compilations. When Micronaut and GraalVM come together, both architectures can take full advantage of each other, resulting in amazingly efficient applications.
+
+This workshop is an introduction to development with Micronaut on the GraalVM to give you everything you need to get started right away. The following topics will be covered in the workshop:
+
+- Project creation with Micronaut-CLI
+- Non-blocking, reactive HTTP Clients and Servers
+- Scheduled Task Execution
+- Configuration using files and environment variables
+- Unit-Tests with and without a server
+- Dependency Injection (at compile time)
+- Robust interfaces (Retries, Circuit Breakers, Fallback)
+- GraalVM Native Image
+- Build using Docker without local GraalVM installation
+
+In order to participate in the workshop, you need:
+
+- a notebook (don't forget the power supply)
+- a development environment (where you know your way around)
+- an installed GraalVM
+- the native image tool
+
+All participants receive detailed information in advance about the preparation.
+
+=== Deutsch
+
+==== Micronaut mit GraalVM in der Praxis
+
+===== Ein Hands-On-Workshop als Einführung in Micronaut
+
+Micronaut ist ein modernes, JVM-basiertes Full-Stack-Framework für den Aufbau modularer, leicht testbarer Microservice- und Serverless-Anwendungen mit dem Fokus auf schnelle Startzeiten und einen geringen Speicherverbrauch. Entwickelt von den Machern des Grails-Frameworks haben viele Spring-Entwickler ihre Erfahrung einfliessen lassen, um ein speziell auf Microservices ausgerichtetes Framework zu erschaffen.
+
+Die von Oracle neu entwickelte GraalVM wird grossen Einfluss auf Entwicklung und Betrieb von Microservices und Functions-as-a-Service im Java-Ökosystem haben und es uns ermöglichen, mit nativen Kompilaten zu konkurrieren. Mit Micronaut und GraalVM zusammen kommen die Vorteile beider Architekturen besonders gut zu tragen und führen zu erstaunlich effizienten Anwendungen.
+
+Dieser Workshop ist eine Einführung in die Entwicklung mit Micronaut auf der GraalVM um die alles an die Hand zu geben, was du benötigst, um sofort loslegen zu können. Im Workshop werden folgende Themen behandelt:
+
+- Projekte mit Micronaut CLI erstellen
+- Nicht blockierende, reaktive HTTP Server und Clients
+- Zeitgesteuerte Ausführung von Methoden (Scheduler)
+- Konfiguration per Konfigurationsdateien und über Umgebungsvariablen
+- Unit-Tests und Komponententests mit und ohne Server
+- Dependency Injection (zur Kompilierzeit)
+- Robuste Schnittstellen (Retries, Circuit Breakers, Fallback)
+- Native Kompilierung mit GraalVM
+- Kompletter Build mit Docker ohne eigene GraalVM-Installation
+
+Um am Workshop teilnehmen zu können, benötigst du:
+
+- ein Notebook (Netzteil nicht vergessen)
+- eine Entwicklungsumgebung (in der du dich auskennst)
+- eine installierte GraalVM
+- das Native-Image-Tool
+
+Alle Teilnehmenden erhalten vorab detaillierte Informationen zur Vorbereitung.
